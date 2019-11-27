@@ -1,0 +1,20 @@
+//Code Commenting ?????
+//Generic - Items grouping ???????
+package com.metcube;
+
+public class Item {
+	
+	Integer id;
+	String itemName; //can be name ??????
+	Integer itemCost; //can be cost ??????
+	
+	public Item(Integer id,String itemName, Integer itemCost) { //White Spacing ?????
+		super(); //Why????
+		this.id=id; //White Spacing ?????
+		this.itemName = itemName;
+		this.itemCost = itemCost;
+		
+	}
+	//Extra line breaks ??????
+
+}
