@@ -1,0 +1,99 @@
+
+header {
+  height: 50px;
+  font-size: 30px;
+  background-color: black;
+}
+strong {
+  color: white;
+}
+
+body, html{
+
+    height: 100%;
+    width: 100%;
+  }
+  .main {
+    height: 600px;
+    width: 100%;
+  }
+
+
+#Add_Employee{
+   
+    background-color:dimgray;
+    border: solid;
+    height: 100%;
+
+}
+
+.pricing-container {
+    box-sizing: border-box;
+    border : 2px solid rgb(146, 240, 166);
+    border-radius: 5%;
+    float: left;
+    width: 26%;
+    margin-top: -20px;
+    margin-left: 90px;
+}
+
+#Add_Vehicle{
+   
+    background-color: rgb(171, 211, 144);
+    border: solid;
+    height: 100%;
+}
+
+#Feedback{
+    background-color: rgb(187, 210, 240);
+    border: solid;
+    height: 100%;
+
+}
+
+#Pricing{
+     background-color: deepskyblue;
+     border: solid;
+     height: 100%;
+     float: inherit;
+}
+
+input, select, textarea {
+    font-family : inherit;
+    font-size   : 100%;
+    border-style: initial;
+    border-radius: 20px;
+
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    
+  }
+  li a {
+    display: block;
+    color:orangered;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  /* Change the link color on hover */
+  
+
+  #Circle{
+    border: 1px solid black;
+    border-radius: 50%;
+    width : 100px;
+    height : 70px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+.btn {
+  color:yellow;
+  width: 100%;
+}
